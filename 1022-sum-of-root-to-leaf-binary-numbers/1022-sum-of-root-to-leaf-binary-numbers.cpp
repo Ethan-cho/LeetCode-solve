@@ -29,7 +29,6 @@ public:
                     h++;
                     cur = parent[cur];
                 }
-                // cout << path_val << endl;
                 sum += path_val;
                 continue;
             }
